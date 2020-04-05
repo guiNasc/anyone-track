@@ -1,4 +1,5 @@
 import React, {useReducer} from 'react';
+import trackerApi from '../api/tracker'
 
 export default (reducer, actions, defaultValue) => {
     const Context = React.createContext();
